@@ -31,13 +31,13 @@ public class Fleet {
 	
 	public void listCars() {
 		for (Car c : cars) {
-			System.out.println(cars.toString());
+			System.out.println(c.toString());
 		}
 	}
 	
 	public void listDrivers() {
 		for (Driver d : drivers) {
-			System.out.println(drivers.toString());
+			System.out.println(d.toString());
 		}
 	}
 	

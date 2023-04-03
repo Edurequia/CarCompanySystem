@@ -6,8 +6,7 @@ public class Driver extends Car{
 	private int age;
 	private String numberCNH;
 	
-	public Driver() {
-	}
+
 
 	public Driver(String driverName, int age, String numberCNH) {
 		this.driverName = driverName;
