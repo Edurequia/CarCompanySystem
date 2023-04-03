@@ -1,6 +1,6 @@
 package entities;
 
-public class Driver {
+public class Driver extends Car{
 	
 	private String driverName;
 	private int age;
@@ -37,6 +37,10 @@ public class Driver {
 
 	public void setNumberCNH(String numberCNH) {
 		this.numberCNH = numberCNH;
+	}
+	
+	public void addDriver(Driver driver) {
+		this.addDriver(driver);
 	}
 	
 	public String toString() {

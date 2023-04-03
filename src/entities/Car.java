@@ -1,6 +1,6 @@
 package entities;
 
-public abstract class Car {
+public class Car {
 	
 	private String model;
 	private String brand;
